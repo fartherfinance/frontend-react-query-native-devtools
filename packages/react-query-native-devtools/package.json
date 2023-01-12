@@ -1,5 +1,5 @@
 {
-  "name": "react-query-native-devtools",
+  "name": "@fartherfinance/react-query-native-devtools",
   "author": "Bruno Galeotti",
   "version": "4.0.0",
   "license": "MIT",
@@ -18,11 +18,11 @@
     "prepare": "tsdx build"
   },
   "peerDependencies": {
-    "react-native-flipper": "^0.127.0",
-    "react-query": "^3.34.6"
+    "react-native-flipper": "*",
+    "react-query": "*"
   },
   "dependencies": {
-    "flatted": "^3.2.4"
+    "flatted": "3.*"
   },
   "devDependencies": {
     "eslint": "^8.5.0",
